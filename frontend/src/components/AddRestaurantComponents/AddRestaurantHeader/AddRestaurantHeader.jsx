@@ -20,7 +20,7 @@ let AddRestaurantHeader = () => {
                     <div className={css.title}>Register your restaurant on Zomato</div>
                     <div className={css.tag}>for free and get more customers!</div>
                     <div className={css.btns}>
-                        <Link to='/' className={css.btn}>Register your restaurant</Link>
+                        <Link to='/RestaurantRegistration' className={css.btn}>Register your restaurant</Link>
                         <Link to='/' className={css.btn}>Restaurant already listed? Claim now</Link>
                     </div>
                 </div>

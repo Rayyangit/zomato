@@ -286,9 +286,9 @@ let ShowCase = () => {
                 /
                 India
                 /
-                Hyderabad
+                Maharashtra
                 /
-                Hyderabad City
+                Pune
                 /
                 Indira Nagar
             </div>
@@ -346,7 +346,7 @@ let ShowCase = () => {
         <div className={css.innerDiv6}>
             <div className={css.w7}>
                 <div className={css.innerDiv6Title}>
-                    {page === orderOnlinePage ? "Delivery Restaurants in Gachibowli" : page === diningOutPage ? "Dine-Out Restaurants in Gachibowli" : "Nightlife Restaurants in Gachibowli"}
+                    {page === orderOnlinePage ? "Delivery Restaurants in Pune" : page === diningOutPage ? "Dine-Out Restaurants in Pune" : "Nightlife Restaurants in Pune"}
                 </div>
                 <div className={css.innerDiv6Body}>
                     {items?.map((item, id) => {

@@ -19,9 +19,9 @@ const RestaurantPage = () => {
             /
             India
             /
-            Hyderabad
+            Maharashtra
             /
-            Hyderabad City
+            Pune
             /
             Indira Nagar
         </div>

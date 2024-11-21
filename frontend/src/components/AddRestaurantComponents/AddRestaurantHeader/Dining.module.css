@@ -1,0 +1,163 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .dining-container {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 2.5rem 3rem;  /* Increased horizontal padding for better spacing */
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .dining-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .dining-header h1 {
+    font-size: 2.3rem;  /* Slightly larger heading */
+    color: #ff645a;
+    margin-bottom: 1.5rem;  /* Increased margin to provide space below heading */
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+  
+  .dining-header p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2.5rem;  /* Increased space after description */
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  .dining-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;  /* Added gap between form elements for better alignment */
+  }
+  
+  .form-section {
+    margin-bottom: 2.8rem;  /* Increased margin to add space between sections */
+  }
+  
+  .form-section h2 {
+    font-size: 1.6rem;
+    color: #222;
+    margin-bottom: 1.2rem;  /* Increased margin for better separation */
+    border-left: 4px solid #ff645a;
+    padding-left: 0.7rem;  /* Adjusted padding to make the border and text aligned */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  .form-group {
+    margin-bottom: 2rem;  /* Increased space between form fields */
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.8rem;  /* Increased margin for label clarity */
+    display: block;
+    font-weight: 500;
+  }
+  
+  input {
+    width: 100%;
+    padding: 1rem;  /* Increased padding for more comfortable text input */
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fefefe;
+    transition: border-color 0.3s, background-color 0.3s;
+    margin-top: 0.5rem;
+  }
+  
+  input:focus {
+    border-color: #ff645a;
+    background-color: #fff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 100, 90, 0.2);
+  }
+  
+  input::placeholder {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.7rem;
+    accent-color: #ff645a;
+    transform: scale(1.2);
+  }
+  
+  .submit-button {
+    padding: 1.1rem;  /* Increased padding for better button feel */
+    font-size: 1.2rem;  /* Slightly larger font size for the button */
+    font-weight: 600;
+    background: linear-gradient(135deg, #ff645a, #ff7d6d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .submit-button:hover {
+    background-color: #e5574c;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 100, 90, 0.4);
+  }
+  
+  .submit-button:active {
+    transform: scale(0.95);
+  }
+  
+  @media (max-width: 768px) {
+    .dining-container {
+      padding: 1.5rem;  /* Reduced padding for smaller screens */
+    }
+  
+    .dining-header h1 {
+      font-size: 1.8rem;  /* Adjusted font size for smaller screens */
+      margin-bottom: 1rem;  /* Reduced margin */
+    }
+  
+    .dining-header p {
+      font-size: 1rem;  /* Adjusted font size */
+    }
+  
+    .form-section h2 {
+      font-size: 1.4rem;  /* Adjusted section title size */
+    }
+  
+    input {
+      font-size: 1rem;
+      padding: 0.9rem;  /* Adjusted padding for inputs */
+    }
+  
+    .submit-button {
+      font-size: 1rem;
+      padding: 1rem;  /* Adjusted button padding */
+    }
+  }
+  
